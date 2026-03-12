@@ -5,6 +5,16 @@ import { Tag } from "@/components/ui/Tag";
 
 export const featuredProjects = [
   {
+    name: "Stack",
+    status: "IN PROGRESS",
+    description:
+      "A mobile platform that unifies your payment cards to optimize spending and rewards automatically.",
+    tech: ["React Native", "TypeScript", "AWS"],
+    github: null,
+    link: "https://the-stack-wallet.vercel.app",
+    large: true,
+  },
+  {
     name: "RevSync",
     status: "IN PROGRESS",
     description:
@@ -12,16 +22,6 @@ export const featuredProjects = [
     tech: ["React Native", "C++", "AWS"],
     github: null,
     link: "https://revsync.app",
-    large: false,
-  },
-  {
-    name: "Project \"Stack\"",
-    status: "IN PROGRESS",
-    description:
-      "A mobile platform that unifies your payment cards to optimize spending and rewards automatically.",
-    tech: ["React Native", "TypeScript", "AWS"],
-    github: null,
-    link: null,
     large: false,
   },
   {
