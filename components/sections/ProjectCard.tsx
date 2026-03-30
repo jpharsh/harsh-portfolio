@@ -5,13 +5,13 @@ import { Tag } from "@/components/ui/Tag";
 
 export const featuredProjects = [
   {
-    name: "Stack",
+    name: "GILD",
     status: "IN PROGRESS",
     description:
-      "A mobile platform that unifies your payment cards to optimize spending and rewards automatically.",
-    tech: ["React Native", "TypeScript", "AWS"],
+      "The rewards intelligence platform that optimizes every purchase to earn you the most money back — all without a second thought.",
+    tech: [],
     github: null,
-    link: "https://the-stack-wallet.vercel.app",
+    link: "https://gild-wallet.vercel.app",
     large: true,
   },
   {
